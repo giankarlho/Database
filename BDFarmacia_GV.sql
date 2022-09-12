@@ -1,5 +1,5 @@
-
-
+use master
+go
 DROP database IF EXISTS BDFarmacia;
 CREATE DATABASE BDFarmacia;
 go
