@@ -3,7 +3,7 @@ CREATE DATABASE BDVentas;
 use BDVentas;
 
 CREATE TABLE cliente(
-	idcliC		int AUTO_INCREMENT PRIMARY KEY NOT NULL ,
+	idcli		int AUTO_INCREMENT PRIMARY KEY NOT NULL ,
 	nomcli		varchar(30) not NULL,		-- nombre
 	apecli		varchar(70) not null,			
 	dnicli		varchar(70) not null,		
@@ -24,6 +24,11 @@ INSERT INTO cliente (nomcli,apecli,dnicli,sexcli,naccli) VALUES
 ('ISABEL','CARHUAS BENDEZU','41298816','F','2015/06/18'),
 ('JUAN CARLOS','REYES SANCHEZ','42504651','M','1982/03/08'),
 ('AMELIA','GUERRERO HUARI','07080714','F','1966/08/01');
+('JHON','HUAMÁN FARFAN','46568657','M','1990/09/05'),
+('HAROLD','CHUMPITAZ DE CASAS','15409737','F','1947/12/22'),
+('JUANA ISABEL','CARHUAS BENDEZU','41297816','F','2010/06/25'),
+('CARLOS MANUEL','REYES CRUZ','49504651','M','1982/09/08'),
+('DAGNE JULIA','GUERRERO HUAMÁN','07080614','F','1966/08/10');
 
 insert into ubigeo (NUMUBI,DPTUBI,PROUBI,DISUBI) values 
 ('150501','LIMA','CAÑETE','SAN VICENTE DE CAÑETE'),
